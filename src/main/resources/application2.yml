@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: tut4,usage_message,sender
+    active: tut4,usage_message,receiver
 logging:
   level:
     org: ERROR

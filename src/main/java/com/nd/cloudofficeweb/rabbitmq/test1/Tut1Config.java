@@ -1,4 +1,4 @@
-package com.nd.cloudofficeweb.rabbitmq;
+package com.nd.cloudofficeweb.rabbitmq.test1;
 
 
 import org.springframework.amqp.core.Queue;
