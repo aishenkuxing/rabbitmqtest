@@ -1,6 +1,11 @@
 spring:
+  rabbitmq:
+    host: 192.168.245.120  #rabbitmq 主机
+    port: 5672       #rabbitmq 端口号
+    username: root
+    password: root
   profiles:
-    active: tut4,usage_message,sender
+    active: tut2,usage_message,sender #sender receiver
 logging:
   level:
     org: ERROR
